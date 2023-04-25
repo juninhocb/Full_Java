@@ -1,4 +1,5 @@
 import wrapper.number.MyByte;
+import wrapper.number.MyInteger;
 import wrapper.number.MyShort;
 
 public class Main {
@@ -33,7 +34,8 @@ public class Main {
         //MethodsRetriever.printMethodsOfThisClass(new Object());
         //MyBoolean.runMe();
         //MyByte.runMe();
-        MyShort.runMe();
+        //MyShort.runMe();
+        MyInteger.runMe();
 
     }
 }
