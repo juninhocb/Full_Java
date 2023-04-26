@@ -1,3 +1,4 @@
+import object.MyString;
 import wrapper.number.MyByte;
 import wrapper.number.MyInteger;
 import wrapper.number.MyShort;
@@ -37,10 +38,8 @@ public class Main {
         //MyByte.runMe();
         //MyShort.runMe();
         //MyInteger.runMe();
-        MyObject.runMe();
+        //MyObject.runMe();
+        MyString.runMe();
     }
 
-    private void callInstanceClasses(){
-
-    }
 }
