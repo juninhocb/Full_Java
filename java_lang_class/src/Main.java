@@ -1,9 +1,10 @@
 import wrapper.number.MyByte;
 import wrapper.number.MyInteger;
 import wrapper.number.MyShort;
+import object.MyObject;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException, InterruptedException {
 
         /**
          * Java Class
@@ -35,7 +36,11 @@ public class Main {
         //MyBoolean.runMe();
         //MyByte.runMe();
         //MyShort.runMe();
-        MyInteger.runMe();
+        //MyInteger.runMe();
+        MyObject.runMe();
+    }
+
+    private void callInstanceClasses(){
 
     }
 }
