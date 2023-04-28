@@ -39,7 +39,10 @@ public class Main {
         //MyShort.runMe();
         //MyInteger.runMe();
         //MyObject.runMe();
-        MyString.runMe();
+        //MyString.runMe();
+        MyString mString = new MyString();
+        mString.runMe();
+
     }
 
 }
