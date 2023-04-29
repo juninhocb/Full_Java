@@ -4,8 +4,10 @@ import wrapper.number.MyInteger;
 import wrapper.number.MyShort;
 import object.MyObject;
 
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args) throws CloneNotSupportedException, InterruptedException {
+    public static void main(String[] args) throws CloneNotSupportedException, InterruptedException, IOException {
 
         /**
          * Java Class
