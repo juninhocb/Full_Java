@@ -3,6 +3,7 @@ import wrapper.number.MyByte;
 import wrapper.number.MyInteger;
 import wrapper.number.MyShort;
 import object.MyObject;
+import object.*;
 
 import java.io.IOException;
 
@@ -42,8 +43,9 @@ public class Main {
         //MyInteger.runMe();
         //MyObject.runMe();
         //MyString.runMe();
-        MyString mString = new MyString();
-        mString.runMe();
+        //MyString mString = new MyString();
+        //mString.runMe();
+        MyChar.runMe();
 
     }
 
