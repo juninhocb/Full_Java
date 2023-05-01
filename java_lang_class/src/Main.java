@@ -1,3 +1,4 @@
+import events.TimerTests;
 import object.MyString;
 import wrapper.number.MyByte;
 import wrapper.number.MyInteger;
@@ -47,8 +48,11 @@ public class Main {
         //MyString mString = new MyString();
         //mString.runMe();
         //MyChar.runMe();
+        /*
         Tests mInstTest = new Tests();
-        mInstTest.runMe();
+        mInstTest.runMe();*/
+        TimerTests timerTests = new TimerTests();
+        timerTests.runMe();
 
 
     }
