@@ -4,6 +4,7 @@ import wrapper.number.MyInteger;
 import wrapper.number.MyShort;
 import object.MyObject;
 import object.*;
+import generics.Tests;
 
 import java.io.IOException;
 
@@ -45,7 +46,10 @@ public class Main {
         //MyString.runMe();
         //MyString mString = new MyString();
         //mString.runMe();
-        MyChar.runMe();
+        //MyChar.runMe();
+        Tests mInstTest = new Tests();
+        mInstTest.runMe();
+
 
     }
 
