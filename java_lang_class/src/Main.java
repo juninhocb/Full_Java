@@ -1,10 +1,11 @@
 import datas.Structures;
 import events.TimerTests;
+import frames.FrameTest;
 import generics.Generic;
 
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.sql.Struct;
-import java.util.Scanner;
+import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException, InterruptedException, IOException {
@@ -52,9 +53,11 @@ public class Main {
         timerTests.runMe();*/
        /*Generic g = new Generic();
         g.runMe();*/
-        Structures s = new Structures();
+        /*Structures s = new Structures();
         s.runMe();
-
+        */
+        FrameTest f = new FrameTest();
+        f.runMe();
 
 
     }
