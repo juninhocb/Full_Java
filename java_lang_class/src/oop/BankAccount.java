@@ -1,6 +1,6 @@
-package generics;
+package oop;
 
-import generics.interfaces.TaxService;
+import oop.interfaces.TaxService;
 
 public class BankAccount {
 

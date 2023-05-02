@@ -1,7 +1,7 @@
-package generics;
+package oop;
 
-import generics.interfaces.BrazilTaxService;
-import generics.interfaces.UsaTaxService;
+import oop.interfaces.BrazilTaxService;
+import oop.interfaces.UsaTaxService;
 
 
 public class Tests {

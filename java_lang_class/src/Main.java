@@ -1,11 +1,5 @@
 import events.TimerTests;
-import object.MyString;
-import wrapper.number.MyByte;
-import wrapper.number.MyInteger;
-import wrapper.number.MyShort;
-import object.MyObject;
-import object.*;
-import generics.Tests;
+import generics.Generic;
 
 import java.io.IOException;
 
@@ -51,8 +45,10 @@ public class Main {
         /*
         Tests mInstTest = new Tests();
         mInstTest.runMe();*/
-        TimerTests timerTests = new TimerTests();
-        timerTests.runMe();
+        /*TimerTests timerTests = new TimerTests();
+        timerTests.runMe();*/
+        Generic g = new Generic();
+        g.runMe();
 
 
     }

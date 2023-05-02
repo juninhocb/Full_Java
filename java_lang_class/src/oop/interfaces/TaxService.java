@@ -1,4 +1,4 @@
-package generics.interfaces;
+package oop.interfaces;
 
 public interface TaxService {
 

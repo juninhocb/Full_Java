@@ -1,4 +1,4 @@
-package generics.interfaces;
+package oop.interfaces;
 
 public class BrazilTaxService implements TaxService{
     @Override
