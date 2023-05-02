@@ -22,7 +22,6 @@ public class Structures {
 
 
     }
-
     private void ex8(){
         Map<String, Integer> myHashMap = new HashMap<>(); // Maintain keys
         Map<String, Integer> myLinkedHashMap = new LinkedHashMap<>();
