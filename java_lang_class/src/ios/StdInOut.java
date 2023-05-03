@@ -2,9 +2,7 @@ package ios;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.Buffer;
 import java.util.Scanner;
 
 public class StdInOut {
@@ -32,9 +30,7 @@ public class StdInOut {
             System.out.println(strTemp);
             counter --;
         } //write three times or three words (do not print the last..)
-
-
-
+        
     }
 
 }
