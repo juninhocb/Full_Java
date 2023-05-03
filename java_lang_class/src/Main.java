@@ -1,3 +1,4 @@
+import datas.Streams;
 import datas.Structures;
 import events.TimerTests;
 import frames.FrameTest;
@@ -59,8 +60,10 @@ public class Main {
         */
         /*FrameTest f = new FrameTest();
         f.runMe();*/
-        FootballClubs fc = new FootballClubs();
-        fc.runMe();
+        /*FootballClubs fc = new FootballClubs();
+        fc.runMe();*/
+        Streams s = new Streams();
+        s.runMe();
 
 
 
