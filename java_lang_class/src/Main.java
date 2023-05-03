@@ -1,18 +1,8 @@
-import datas.MyCollections;
-import datas.Streams;
-import datas.Structures;
-import events.TimerTests;
-import frames.FrameTest;
-import generics.Generic;
-import ios.StdInOut;
-import oop.FootballClubs;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import frames.RectangleTest;
+import ios.Files.Outer;
 
 public class Main {
-    public static void main(String[] args) throws CloneNotSupportedException, InterruptedException, IOException {
+    public static void main(String[] args) throws Exception {
 
         /**
          * Java Class
@@ -68,8 +58,12 @@ public class Main {
         s.runMe();*/
         /*MyCollections mc = new MyCollections();
         mc.runMe();*/
-        StdInOut stdio = new StdInOut();
-        stdio.runMe();
+        /*StdInOut stdio = new StdInOut();
+        stdio.runMe();*/
+        /*Outer mf = new Outer();
+        mf.runMe();*/
+        RectangleTest rt = new RectangleTest();
+        rt.runMe();
 
     }
 
