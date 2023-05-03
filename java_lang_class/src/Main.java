@@ -1,8 +1,10 @@
+import datas.MyCollections;
 import datas.Streams;
 import datas.Structures;
 import events.TimerTests;
 import frames.FrameTest;
 import generics.Generic;
+import ios.StdInOut;
 import oop.FootballClubs;
 
 import java.io.BufferedReader;
@@ -62,10 +64,12 @@ public class Main {
         f.runMe();*/
         /*FootballClubs fc = new FootballClubs();
         fc.runMe();*/
-        Streams s = new Streams();
-        s.runMe();
-
-
+        /*Streams s = new Streams();
+        s.runMe();*/
+        /*MyCollections mc = new MyCollections();
+        mc.runMe();*/
+        StdInOut stdio = new StdInOut();
+        stdio.runMe();
 
     }
 
