@@ -1,3 +1,4 @@
+import datas.MyCollections;
 import datas.Streams;
 import datas.Structures;
 import events.TimerTests;
@@ -62,8 +63,10 @@ public class Main {
         f.runMe();*/
         /*FootballClubs fc = new FootballClubs();
         fc.runMe();*/
-        Streams s = new Streams();
-        s.runMe();
+        /*Streams s = new Streams();
+        s.runMe();*/
+        MyCollections mc = new MyCollections();
+        mc.runMe();
 
 
 
