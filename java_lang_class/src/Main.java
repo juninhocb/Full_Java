@@ -1,4 +1,5 @@
 import frames.RectangleTest;
+import ios.Files.In;
 import ios.Files.Outer;
 
 public class Main {
@@ -62,8 +63,10 @@ public class Main {
         stdio.runMe();*/
         /*Outer mf = new Outer();
         mf.runMe();*/
-        RectangleTest rt = new RectangleTest();
-        rt.runMe();
+        /*RectangleTest rt = new RectangleTest();
+        rt.runMe();*/
+        In in = new In();
+        in.runMe();
 
     }
 
