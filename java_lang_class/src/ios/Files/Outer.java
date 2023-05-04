@@ -1,9 +1,10 @@
 package ios.Files;
 
-import java.io.BufferedOutputStream;
-import java.io.DataOutputStream;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
+import ios.Information;
+
+import java.io.*;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
 
 public class Outer {
@@ -15,9 +16,19 @@ public class Outer {
         //ex3(); //using FileWriter, better to write strings
         //ex4(); //appending data to existing file
         //ex5(); //using buffered stream, better to write large data
+        //ex6();
 
 
+    }
 
+    public void ex6() throws IOException {
+        Information info = new Information("%2c11D@", InetAddress.getLocalHost().getHostName(), InetAddress.getLocalHost().getHostAddress(), 4004, true);
+        File file = new File(String.format("%s/files/info.txt", System.getProperty("user.dir")));
+        FileOutputStream fos = new FileOutputStream(file);
+        ObjectOutputStream oos = new ObjectOutputStream(fos);
+        oos.writeObject(info); //writes with java encoding
+        oos.flush();
+        oos.close();
     }
 
     public void ex5() throws Exception {
